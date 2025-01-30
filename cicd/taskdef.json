@@ -48,12 +48,16 @@
                     "value": "true"
                 },
                 {
-                    "name": "DD_SITE",
-                    "value": "ap1.datadoghq.com"
-                },
-                {
                     "name": "DD_API_KEY",
                     "value": "<DD_API_KEY>"
+                },
+                {
+                    "name": "DD_ECS_TASK_COLLECTION_ENABLED",
+                    "value": "true"
+                },
+                {
+                    "name": "DD_SITE",
+                    "value": "ap1.datadoghq.com"
                 }
             ],
             "mountPoints": [],
