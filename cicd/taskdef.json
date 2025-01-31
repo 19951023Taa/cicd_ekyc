@@ -15,6 +15,10 @@
             "essential": true,
             "environment": [
                 {
+                    "name": "LB_ENDPOINT",
+                    "value": "LB_ENDPOINT"
+                },
+                {
                     "name": "ENV_VAR_NAME",
                     "value": "value1"
                 },
