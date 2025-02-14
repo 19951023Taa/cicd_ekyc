@@ -6,8 +6,8 @@ RUN dnf -y update && \
 dnf -y install httpd
 
 # 外部からindex.htmlをコピー
-COPY index.html /var/www/html/index.html
-COPY httpd.conf /etc/httpd/conf/httpd.conf
+COPY ../src/index.html /var/www/html/index.html
+COPY ../src/httpd.conf /etc/httpd/conf/httpd.conf
 
 # コンテナが利用するポート番号
 EXPOSE 80
